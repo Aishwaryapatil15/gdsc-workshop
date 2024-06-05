@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shotcut icon" href="./assets/logo.svg"/>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="logo-container">
+                <img src="./assets/logo.svg" alt="bucket-logo">
+                <h1>bucketly</h1>
+            </div>
+        </nav>
+        <div class="input-container">
+            <form id="item-form">
+                <div class="input-fields">
+                    <div class="input-item">
+                        <label for="place">place:</label>
+                        <input type="text" id="place" placeholder="enter the place">
+
+                    </div>
+                    <div>
+                        <div class="input-item">
+                            <label for="location">location:</label>
+                            <input type="text" id="location" placeholder="enter the location">
+    
+                    </div>
+                    <div class="input-item">
+                        <label for="plan">plan:</label>
+                        <textarea id="plan" rows="1" cols="20"></textarea>
+                    </div>
+                    <div class="input-item">
+                        <label for="image">plan:</label>
+                        <input type="text" id="image"/>
+
+                    </div>
+                    <div class="input-item">
+                        <label for="date">plan:</label>
+                        <input type="text" id="date"/>
+
+                    </div>
+                    <div class="input-item">
+                        <label for="link">plan:</label>
+                        <input type="text" id="link"/>
+
+                    </div>
+                </div>
+                <button type="submit">
+                    <img src="./assets/button.svg" alt="btn"/>
+                </button>
+            </form>
+        </div>
+        <!-- this div contains cards -->
+        <div class="list-container" id="list-container">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1280px-Taj_Mahal_%28Edited%29.jpeg",alt="taj mahal"/>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="card-header-text">
+                            <a target="_blank" href=" https://www.indiatajmahaltour.com/holiday-packages/taj-mahal-tours-from-bangalore.htm",>taj mahal</a>
+                            <p>Agra,India</p>
+                        </div>
+                        <div class="card-header-actions">
+                            <button>
+                                <img src="./assets/edit-icon.svg" alt="edit-button">
+                            </button>
+                            <button>
+                                <img src="./assets/trash-icon.svg" alt="delete-icon">
+                            </button>
+                        </div>
+                    </div>
+                    <p>"I'm looking forward to leisurely walking through the lush gardens surrounding the Taj. I'll keep my camera ready for every picturesque corner.",</p>
+                    <p class="card-footer">26 may 2024</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="https://media.cntraveler.com/photos/58de89946c3567139f9b6cca/16:9/w_1920,c_limit/GettyImages-468366251.jpg",/>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="card-header-text">
+                            <a target="_blank" href="https://traveltriangle.com/tour-packages/eiffel-tower">eiffel-tower</a>
+                            <p>paris,france</p>
+                        </div>
+                        <div class="card-header-actions">
+                            <button>
+                                <img src="./assets/edit-icon.svg" alt="edit-button">
+                            </button>
+                            <button>
+                                <img src="./assets/trash-icon.svg" alt="delete-icon">
+                            </button>
+                        </div>
+                    </div>
+                    <p>"Climbing up the Eiffel Tower is a must-do for me. Whether by elevator or stairs, reaching the top for panoramic views of Paris is going to be unforgettable.",</p>
+                    <p class="card-footer">26 may 2024</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="https://th-thumbnailer.cdn-si-edu.com/tTWLQXzOH6vwsp7kSFf6Td7ZpZc=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/80/fa/80facab4-fe0e-4a56-bd99-a71eb1845fa0/01_14_2014_great_wall.jpg",/>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="card-header-text">
+                            <a target="_blank" href="https://www.sotc.in/tourism/china-tourism/things-to-do-in-china/great-wall-of-china/2239",>Great wall of china</a>
+                            <p>Huairou District, China</p>
+                        </div>
+                        <div class="card-header-actions">
+                            <button>
+                                <img src="./assets/edit-icon.svg" alt="edit-button">
+                            </button>
+                            <button>
+                                <img src="./assets/trash-icon.svg" alt="delete-icon">
+                            </button>
+                        </div>
+                    </div>
+                    <p>"I'm beyond excited to finally see the Great Wall of China in person! I'll make sure to take it all in, marveling at its sheer size and historical significance.",</p>
+                    <p class="card-footer">26 may 2024</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- <div class="list-container">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1280px-Taj_Mahal_%28Edited%29.jpeg",alt="taj mahal"/>
+                <div class="card-content">
+                    <div class="card-header">
+                        <div class="card-header-text">
+                            <a target="_blank" href=" https://www.indiatajmahaltour.com/holiday-packages/taj-mahal-tours-from-bangalore.htm",>taj mahal</a>
+                            <p>Agra,India</p>
+                        </div>
+                        <div class="card-header-actions">
+                            <button>
+                                <img src="./assests/edit-icon.svg" alt="edit-button">
+                            </button>
+                            <button>
+                                <img src="./assests/trash-icon.svg" alt="delete-icon">
+                            </button>
+                        </div>
+                    </div>
+                    <p>"I'm looking forward to leisurely walking through the lush gardens surrounding the Taj. I'll keep my camera ready for every picturesque corner.",</p>
+                    <p class="card-footer">26 may 2024</p>
+                </div>
+
+            </div>
+        </div> -->
+        <footer>
+            <img src="./assets/gdsc_logo.svg"/>
+            <h3>Devloped by you</h3>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
